@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="icon" href="coin.PNG">
+  <title>Toss</title>
+</head>
+
+<body>
+  <header>
+    <div class="overlay"></div>
+    <video class="" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="videoplayback.mp4" type="video/mp4">
+    </video>
+    <div class="container h-100">
+      <div class="d-flex h-100 text-center align-items-center">
+        <div class="w-100 text-white">
+          <h1 class="display-2" id="head"><strong>Heads or Tails..??</strong></h1><br />
+
+          <img id="coin" class="coin" src="" alt=""><br />
+          <div class="timer" id="timer">
+            <p class="timer-val" id="timer-val">
+            </p>
+          </div>
+          <br />
+          <button type="button" onclick="change()" name="button" class="toss btn btn-lg  btn-secondary">Click here to TOSS....!!</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
